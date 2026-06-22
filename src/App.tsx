@@ -70,7 +70,7 @@ interface Edge {
   from: number;
   to: number;
 }
-
+//hi
 interface MapData {
   orgName?: string;
   staticArea?: MapNode[];
