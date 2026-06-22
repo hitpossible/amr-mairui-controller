@@ -10,7 +10,7 @@ export default defineConfig({
         changeOrigin: true,
       },
       '/rest/pods': {
-        target: 'http://127.0.0.1:3000',
+        target: 'http://172.21.82.18:8081',
         changeOrigin: true,
       }
     }
