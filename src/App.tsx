@@ -437,7 +437,7 @@ export default function App() {
     if (showLabels) {
       for (const rm of remarks) {
         const [sx, sy] = toScreen(rm.position[0], rm.position[1]);
-        const fs = Math.max(10, rm.size * viewState.current.scale * 0.042);
+        const fs = Math.max(7, rm.size * viewState.current.scale * 0.028);
         ctx.font = `${rm.weight} ${fs}px Inter, sans-serif`;
         ctx.shadowColor = '#000';
         ctx.shadowBlur = 6;
